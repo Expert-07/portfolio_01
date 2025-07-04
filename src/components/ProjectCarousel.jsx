@@ -62,6 +62,7 @@ import React from "react";
 import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import projectImage from '../assets/crypto_site.png'; // Example image import, replace with actual images
 
 const projects = [
   // Add your project data here
@@ -74,7 +75,7 @@ const projects = [
   // }
 {  title: 'Crypto Investment Site',
   description: 'A secure broker platform built with Node.js, PostgreSQL, and Express.',
-  image: 'public/assets/crypto_site.png',
+  image: projectImage,
   live: 'https://crypto-investment-site.com',
   github: 'https://github.com/yourusername/crypto-investment-site'
 },

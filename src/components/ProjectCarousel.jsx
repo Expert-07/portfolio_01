@@ -74,7 +74,7 @@ const projects = [
   // }
 {  title: 'Crypto Investment Site',
   description: 'A secure broker platform built with Node.js, PostgreSQL, and Express.',
-  image: 'path/to/crypto-investment-site.jpg',
+  image: 'public/assets/crypto_site.png',
   live: 'https://crypto-investment-site.com',
   github: 'https://github.com/yourusername/crypto-investment-site'
 },
@@ -105,6 +105,7 @@ const SampleCarousel = () => {
       <Slider {...settings}>
         {projects.map((project, index) => (
           <div key={index} className="p-4">
+            <div className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-6 transition-all duration-300 hover:shadow-2xl hover:scale-[1.02]">
             <img src={project.image} alt={project.title} className="w-full h-auto rounded-lg" />
             <h3 className="text-xl font-semibold mt-2">{project.title}</h3>
             <p className="text-gray-600">{project.description}</p>
@@ -113,6 +114,7 @@ const SampleCarousel = () => {
               <span className="mx-2">|</span>
               <a href={project.github} className="text-blue-500 hover:underline">View Code</a>
             </div>
+          </div>
           </div>
         ))}
       </Slider>

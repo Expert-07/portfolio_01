@@ -14,7 +14,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section className="bg-gray-100 dark:bg-[#1e293b] py-20 px-6 text-center text-gray-900 dark:text-white">
+    <section  id="projects" className="bg-gray-100 dark:bg-[#1e293b] py-20 px-6 text-center text-gray-900 dark:text-white">
       <h2 className="text-3xl font-bold mb-10">Projects</h2>
       <div className="grid gap-8 sm:grid-cols-2 max-w-4xl mx-auto">
         {projects.map((project, i) => (

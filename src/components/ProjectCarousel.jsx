@@ -4,7 +4,7 @@ import { Slider } from "react-slick";
 const projects = [
   // Add your project data here
   // Example:
-  // {
+  // {-
   //   title: "Project Title",
   //   description: "Project Description",
   //   image: "path/to/image.jpg",
@@ -111,9 +111,9 @@ const SampleCarousel = () => {
             <h3 className="text-xl font-semibold mt-2">{project.title}</h3>
             <p className="text-gray-600">{project.description}</p>
             <div className="mt-4">
-              <a href={project.live} className="text-blue-500 hover:underline">View Live</a>
-              <span className="mx-2">|</span>
-              <a href={project.github} className="text-blue-500 hover:underline">View Code</a>
+              <a href={project.live} className="bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700">View Live</a>
+              <span className="mx-2">{" "}</span>
+              <a href={project.github} className="bg-blue-800 text-white py-2 px-4 rounded hover:bg-blue-700">View Code</a>
             </div>
           </div>
           </div>

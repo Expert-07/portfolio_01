@@ -16,7 +16,7 @@ export default function Hero() {
           transition={{ duration: 1 }}
           className="text-4xl md:text-6xl font-bold"
         >
-          Hi, I’m Gideon
+          <h1 className="text-4xl md:text-6xl font-orbitron">Hi, I’m Gideon</h1>
         </motion.h1>
     
         <motion.p
@@ -25,7 +25,7 @@ export default function Hero() {
           transition={{ delay: 0.5, duration: 1 }}
           className="mt-4 text-lg md:text-xl text-gray-300"
         >
-          A passionate Full‑Stack Developer who loves building beautiful web experiences.
+        <p className="font-sans">A passionate Full‑Stack Developer who loves building beautiful web experiences.</p>
         </motion.p>
 
         <motion.a

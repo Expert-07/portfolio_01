@@ -5,7 +5,13 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Space Grotesk', 'sans-serif'], // Custom font
+        orbitron: ['Orbitron', 'monospace'], // Custom font for code
+        mono: ['Share Tech Mono', 'monospace'], // Custom font for code
+      },
+    },
   },
   darkMode: 'class', // Enable dark mode support
   plugins: [],

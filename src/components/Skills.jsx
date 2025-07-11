@@ -41,6 +41,7 @@ export default function Skills() {
                 text-gray-800
                  dark:text-white
                  p-4 rounded-lg
+                 space-y-8
                  shadow hover:scale-105 
                 transition-transform" 
                 data-aos="zoom-in" 

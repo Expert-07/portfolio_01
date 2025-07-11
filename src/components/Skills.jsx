@@ -1,9 +1,32 @@
 import { div } from "framer-motion/client";
 import React from "react";
+import {
+    FaHtml5,
+    FaCss3Alt,
+    FaJsSquare,
+    FaReact,
+    FaNodeJs,
+    FaDatabase,
+    FaGitAlt,
+    FaCode,
+    FaPython,
+} from "react-icons/fa";
+import { SiVite } from "react-icons/si";
 
 export default function Skills() {
     const Skills = [
-        'HTML', 'CSS', 'JavaScript', 'React', 'NodeJs', 'Express.js', 'PostgreSQL', 'TailwindCSS', 'Git & GitHub', 'Vite', 'REST APIs'
+        { name: 'HTML', icon: <FaHtml5 className="text-orange-500" /> },
+        { name: 'CSS', icon: <FaCss3Alt className="text-blue-500" /> },
+        { name: 'JavaScript', icon: <FaJsSquare className="text-yellow-500" /> },
+        { name: 'React', icon: <FaReact className="text-blue-500" /> },
+        { name: 'NodeJs', icon: <FaNodeJs className="text-green-500" /> },
+        { name: 'Express.js', icon: <FaNodeJs className="text-green-500" /> },
+        { name: 'PostgreSQL', icon: <FaDatabase className="text-blue-500" /> },
+        { name: 'TailwindCSS', icon: <FaCss3Alt className="text-blue-500" /> },
+        { name: 'Git & GitHub', icon: <FaGitAlt className="text-orange-500" /> },
+        { name: 'Vite', icon: <SiVite className="text-blue-500" /> },
+        { name: 'REST APIs', icon: <FaCode className="text-yellow-500" /> },
+        { name: 'Python', icon: <FaPython className="text-blue-500" /> },
     ];
 
     return (
@@ -22,7 +45,7 @@ export default function Skills() {
                 transition-transform" 
                 data-aos="zoom-in" 
                 data-aos-delay={index * 100} data-aos-duration="500"
-                >{skill}</div>
+                >{skill.icon}{skill.name}</div>
             ))}
         </section>
     )

@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import Navbar from "./components/Navbar";
 //import ProjectCarousel from "./components/ProjectCarousel";
 import SampleCarousel from "./components/ProjectCarousel";
+import About from "./components/About";
 
 
 function App() {
@@ -16,9 +17,10 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <Contact />
+      <About/>
       <SampleCarousel />
       <Skills />
+      <Contact />
       <ThemeToggle />
      {/* <ProjectCarousel />
      */} 

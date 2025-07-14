@@ -76,7 +76,7 @@ const projects = [
 {  title: 'Crypto Investment Site',
   description: 'A secure broker platform built with Node.js, PostgreSQL, and Express.',
   image: projectImage,
-  live: 'https://crypto-investment-site.com',
+  live: 'https://',
   github: 'https://github.com/yourusername/crypto-investment-site'
 },
 {  title: 'Campus Buddy',

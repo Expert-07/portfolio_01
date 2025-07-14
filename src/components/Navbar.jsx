@@ -13,7 +13,7 @@ export default function Navbar() {
         backdrop-blur shadow-sm
         ">
             <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-                <h1 className="text-xl text-blue-600 dark:text-blue-400">Gideon.dev</h1>
+                <h1 className="text-xl text-blue-600 dark:text-blue-400">{"</Web Developer>"}</h1>
             <ul className="hidden md:flex space-x-6 font-medium">
                 {navItems.map((item) => (
                     <li key={item}>

@@ -29,7 +29,7 @@ import { Parallax } from 'react-scroll-parallax';
 
 export default function About() {
   return (
-    <section className="bg-white dark:bg-gradient-to-b from-[#000000] to-[#0f172b]  py-20 px-6 text-center text-gray-800 dark:text-white">
+    <section className="dark:bg-gradient-to-b from-[#000000] to-[#0f172b]  py-20 px-6 text-center text-gray-800 dark:text-white rounded-3xl">
       <h2 className="text-3xl font-bold mb-6">
         <DecryptedText
 text="About Me"

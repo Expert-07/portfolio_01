@@ -43,21 +43,21 @@ export default function Contact() {
             type="text"
             placeholder="Your Name"
             name="name"
-            className="p-3 rounded bg-black text-black dark:text-white font-mono"
+            className="relative p-3 rounded bg-black text-black dark:text-white font-mono"
             required
           />
           <input
             type="email"
             placeholder="Your Email"
             name="email"
-            className="p-3 rounded bg-black text-black dark:text-white font-mono"
+            className="relative p-3 rounded bg-black text-black dark:text-white font-mono"
             required
           />
           <textarea
             placeholder="Your Message"
             rows="15"
             name="message"
-            className="p-3 rounded dark:bg-gradient-to-b from-black to-[#0f172b] text-black dark:text-white font-mono"
+            className="relative p-3 rounded dark:bg-gradient-to-b from-black to-[#0f172b] text-black dark:text-white font-mono"
             required
           />
           <button type="submit" className="bg-blue-700 text-white py-3 rounded hover:bg-blue-600">

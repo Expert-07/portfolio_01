@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 //import ProjectCarousel from "./components/ProjectCarousel";
 import SampleCarousel from "./components/ProjectCarousel";
 import About from "./components/About";
+import ContactMe from "./components/ContactMe";
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
      */} 
       <Projects />
       {/* <ParallaxImage /> */}
-
+      <ContactMe/>
     </div>
   );
 }

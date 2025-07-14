@@ -37,7 +37,7 @@ export default function Skills() {
                 <div
                 key={index}
                 className="bg-gray-100 
-                dark:bg-gray-800 
+                dark:bg-gray-800/40
                 text-gray-800
                  dark:text-white
                  p-4 rounded-lg

@@ -41,7 +41,7 @@ export default function Hero() {
           mouseInteraction={true}
           mouseInteractionRadius={1.2}
           glowIntensity={0.1}
-          opacity={0.8}
+          opacity={0.3}
         />
       </div>
       <Parallax speed={-20}>

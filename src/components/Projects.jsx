@@ -18,7 +18,7 @@ export default function Projects() {
       <h2 className="text-3xl font-bold mb-10">Projects</h2>
       <div className="grid gap-8 sm:grid-cols-2 max-w-4xl mx-auto">
         {projects.map((project, i) => (
-          <div key={i} className="bg-white dark:bg-gray-800/10 p-6 rounded-xl shadow hover:scale-105 transition-transform border border-t-blue-900 border-b-blue-900 border-l-blue-500 border-r-blue-500">
+          <div key={i} className="bg-white dark:bg-gray-800/10 p-6 rounded-xl shadow hover:scale-105 transition-transform transition-duration-300 border border-t-blue-900 border-b-blue-900 border-l-blue-500 border-r-blue-500">
             <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
             <p className="mb-4">{project.description}</p>
             <a

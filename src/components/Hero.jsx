@@ -4,7 +4,12 @@ import { Typewriter } from "react-simple-typewriter";
 import React, { useState, useEffect } from "react";
 import { Parallax } from "react-scroll-parallax";
 
+import RippleGrid from './RippleGrid';
+import { tr } from "framer-motion/client";
 
+<div style={{position: 'relative', height: '500px', overflow: 'hidden'}}>
+
+</div>
 
 export default function Hero() {
   const [scrollY, setScrollY] = useState(0);
@@ -24,8 +29,21 @@ export default function Hero() {
     <section className="min-h-screen 
     flex items-center justify-center 
     bg-gradient-to-b from-[#031531] 
-    to-black px-6 text-white sticky top-0 z-0" style={{ opacity, transition: "opacity 0.02s ease-in-out",
+    to-black px-6 text-white sticky top-0 z-0 relative" style={{ opacity, transition: "opacity 0.02s ease-in-out",
      }}>
+      <div className="absolute inset-0 -z-10">
+        <RippleGrid
+          enableRainbow={false}
+          gridColor="red"
+          rippleIntensity={0.05}
+          gridSize={10}
+          gridThickness={15}
+          mouseInteraction={true}
+          mouseInteractionRadius={1.2}
+          glowIntensity={0.1}
+          opacity={0.8}
+        />
+      </div>
       <Parallax speed={-20}>
       <div className="text-center max-w-2xl z-inset-0">
       {/*<Parallax speed={-20}>*/}

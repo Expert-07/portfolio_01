@@ -31,9 +31,9 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="min-h-screen dark:bg-gradient-to-b from-[#000000] to-[#0f172b] py-20 px-20 text-center text-gray-900 dark:text-white z-10">
+    <section id="contact" className="min-h-screen dark:bg-gradient-to-b from-[#000000] to-[#0f172b] py-20 px-20 text-center text-gray-900 dark:text-white relative z-10">
       {/*<Parallax speed={300}>*/}
-        <h2 className="text-30xl font-bold mb-6">Contact Me</h2>
+        <h2 className="text-7xl font-bold font-orbitron mb-6">Contact Me</h2>
         <p className="mb-10 text-gray-600 dark:text-gray-400 animate-bounce">
           I’d love to hear from you! Whether you have a question, want to work together, or just want to say hi, feel free to drop me a message.
         </p>
@@ -60,7 +60,7 @@ export default function Contact() {
             className="relative p-3 rounded dark:bg-gradient-to-b from-black to-[#0f172b] text-black dark:text-white font-mono"
             required
           />
-          <button type="submit" className="bg-blue-700 text-white py-3 rounded hover:bg-blue-600">
+          <button type="submit" className="bg-blue-700 text-white py-3 rounded hover:bg-blue-600 relative transition-colors duration-300 font-mono">
             Send Message
           </button>
 
